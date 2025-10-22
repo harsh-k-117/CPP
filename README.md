@@ -1,3 +1,3 @@
 # C++
 
-This repository contains all c++ language projects and programs.
+This repository contains all C++ language projects and programs.
