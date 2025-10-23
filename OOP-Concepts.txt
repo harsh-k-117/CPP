@@ -1,0 +1,32 @@
+What is OOPS?
+Object Oriented Progamming is a certain way of writing code that represents real world 
+through the creation objects.
+
+-----
+
+1. "Object" - Real world entities. (Eg: ONE-UI)
+2. "Class" - Blueprint of these entities. (Eg: Android OS)
+3. "Methods" - Functions or propeties stored inside a class/ object.
+
+"Classes and Objects" - Create a class or a Blueprint which can be replicated by varoius objects
+defined inside the class sharing similar properties. This will reduce code repition as class and
+objects are used instead of too many variables and enhance re-usability.
+
+Eg: Amazon
+Amazon has varoius products and each product has varoius properties/ methods like name, 
+description, price, etc.
+Hence, here amazon must have used a Blueprint for all the products to include these 
+common properties and each listed product would then be called as an individual object inside 
+the class "Product".
+
+-----
+
+"Access Specifiers":
+1. private (default) - data/members are only accesible inside the 
+class itself. 
+2. public - data/members are accesible globally.
+3. protected - data/members are accesible inside drived classes.
+
+-----
+
+"Encapsulation":
