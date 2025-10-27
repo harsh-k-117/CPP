@@ -2,10 +2,10 @@
 #include <string>
 using namespace std;
 
-class Teacher{
+class Teacher{    //Encapsulation
     // Attributes or properties
 
-private:
+private:       //data hiding
     float salary;
 
 public:
@@ -34,7 +34,7 @@ public:
 
 int main(){
     // Create an object of Teacher class
-    Teacher t1;
+    Teacher t1; //constructor called
     t1.name = "Mr. Kulkarni";
     t1.dept = "Computer Science";
     t1.subject = "Data Structures";

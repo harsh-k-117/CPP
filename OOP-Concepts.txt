@@ -30,3 +30,7 @@ class itself.
 -----
 
 "Encapsulation":
+Encapsulation is wrapping up of data members/ properties and methods/
+member-functions in a single unit or a capsule, i.e. class. 
+-Helps in Data hiding by using access specifiers.
+
