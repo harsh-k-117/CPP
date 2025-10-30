@@ -35,5 +35,15 @@ member-functions in a single unit or a capsule, i.e. class.
 -Helps in Data hiding by using access specifiers.
 
 "Constructors":
+Special method called automatically at the time of object creation,
+used for initialization and memory allocation of objects.
+-Same name as class, doesn't have a retun type.
+-Only called once (automatically) at object creation.
 
+1. Parameterized constructor - Contains parameters.
+2. Non-Parameterized constructor - Does not contain parameters.
+3. Copy consturctor - Special constructor used to copy the properties
+of one object to another.
 
+"this->" pointer: 
+Special pointer in c++ that point to the current object.
