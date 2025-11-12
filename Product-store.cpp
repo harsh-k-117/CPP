@@ -51,6 +51,9 @@ public:
 
     friend void Compare(Product p1, Product p2);
 
+    inline double Value(){
+        return price * quantity;
+    }
 };
 
 int Product::count = 0;
@@ -73,8 +76,10 @@ int main(){
     p1.Input();
     p2.Input();
     p1.Display();
+    p1.Value();
     p2.Display();
-
+    p2.Value();
+    
     Product::Showcount();
     Compare(p1, p2);
 
