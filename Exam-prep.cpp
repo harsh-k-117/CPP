@@ -91,13 +91,13 @@ int main(){
         cin>>choice;
 
         switch(choice){
-            case1: acc1.Deposit();
+            case 1: acc1.Deposit();
                     break;
-            case2: acc1.Withdraw();
+            case 2: acc1.Withdraw();
                     break;
-            case3: acc1.Display();
+            case 3: acc1.Display();
                     break;      
-            case4: cout<<"Exiting..."<<endl;
+            case 4: cout<<"Exiting..."<<endl;
                     break;
             default: cout<<"Invalid choice! Please try again."<<endl;
         }
